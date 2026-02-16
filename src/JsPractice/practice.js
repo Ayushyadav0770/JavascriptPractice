@@ -70,7 +70,10 @@
 // another methood
 // console.log(typeof (+"20"));
 
-
-
+// ======================= ParseInt and ParseFloat =======================
+// ParseInt and parsefloat both are usued to convert a string into number but parseInt is used to convert a string into integer and parseFloat is used to convert a string into floating point number.
+const str1 = "20.5";
+console.log((parseInt(str1)));
+ 
 
 
