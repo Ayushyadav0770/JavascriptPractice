@@ -72,8 +72,21 @@
 
 // ======================= ParseInt and ParseFloat =======================
 // ParseInt and parsefloat both are usued to convert a string into number but parseInt is used to convert a string into integer and parseFloat is used to convert a string into floating point number.
-const str1 = "20.5";
-console.log((parseInt(str1)));
- 
+// const str1 = "20.5";
+// parseInt("10");      // 10
+// parseInt("10.99");   // 10  (decimal part removed)
+// parseInt("100px");   // 100
 
+// parseFloat("10.99");   // 10.99
+// parseFloat("100.50px"); // 100.50
+
+// console.log((parseInt(str1)));
+
+// What will be the output of the following code
+// var divid = "hello" /2;
+// console.log(divid); // NaN (Not a Number) because "hello" is not a number and we are trying to divide it by 2 which is not possible.
+
+// =========================== Operators in JavaScript ===========================
+
+// Operators in javascript are used to perform operations on variables and values. There are different types of operators in javascript such as arithmetic operators, assignment operators, comparison operators, logical operators, etc.
 
