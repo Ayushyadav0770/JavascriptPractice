@@ -1,7 +1,9 @@
+import Landing from "./LandingPage/Landing"
+
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      {/* <Landing/> */}
     </div>
   )
 }
