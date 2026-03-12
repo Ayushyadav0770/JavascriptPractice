@@ -107,12 +107,52 @@
 
 11.//=================== Find out given is negative or positive integer =======================
 
-function checkPositiveNegative(num){
-if(num >= 0){
-document.write("the given number is positive")
-}else{
-    document.write("the given number is negative")
-}
-}
+// function checkPositiveNegative(num){
+// if(num >= 0){
+// document.write("the given number is positive")
+// }else{
+//     document.write("the given number is negative")
+// }
+// }
 
-checkPositiveNegative(-5);
+// checkPositiveNegative(-5); 
+
+12.//=================== Find the largest numbers between two numbers =================== 
+
+// function findLargest(a,b,c){
+// if(a>=b && a>=c ){
+// console.log("a is largest number",a)
+// }else if(b>=a && b>=c){
+// console.log("b is largest number",b)
+// }else {
+//     console.log("c is largest number",c)
+// }
+// }
+
+// findLargest(15,5,4);
+
+13.//=================== Check if a number is divisible by 5 =================== 
+
+// function divisbleByFive(a){
+// if(a % 5 === 0){
+//     console.log("given number is divisible by five")
+// }else{
+//     console.log("given number is not divisible by five")
+// }
+// }
+
+// divisbleByFive(2)
+
+14.//=================== Check if a number is divisible by 3 and 5 both =================== 
+
+// function divisbleByFiveAndThree(num){
+//  if(num % 3 === 0 && num % 5 === 0){
+//     console.log("Yes this number is divisible by both")
+//  }else{
+//     console.log("No this number is not divisible")
+//  }
+// }
+// divisbleByFiveAndThree(10)
+
+15. //=================== Check if a year is a leap year =====================
+
