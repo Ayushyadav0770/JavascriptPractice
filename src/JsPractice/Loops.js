@@ -68,3 +68,16 @@
 //     num++;
 // }
 // console.log("The sum of numbers from 1 to 10 is:",sum);
+
+// 6.Write table of 5 ;
+
+// let num = 1;
+
+// while(num <= 10){
+//     console.log(num * 5);
+//     num++;
+// }
+
+for(let i = 1; i <=10;i++){
+    console.log(i*12);
+}

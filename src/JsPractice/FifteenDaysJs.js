@@ -156,3 +156,10 @@
 
 15. //=================== Check if a year is a leap year =====================
 
+let year = new Date().getFullYear();
+
+for (let i = year; i >= 40;i--){
+    if(i % 4 == 0 && i % 100 !== 0){
+        console.log(i,"is a leap year")
+    }
+}
