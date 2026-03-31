@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator UI</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.calculator {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    width: 280px;
+}
+
+/* Display */
+.display {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #020617;
+    color: #fff;
+    outline: none;
+}
+
+/* Grid Layout */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* Buttons */
+button {
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Number buttons */
+.num {
+    background: #334155;
+    color: white;
+}
+
+.num:hover {
+    background: #475569;
+}
+
+/* Operator buttons */
+.op {
+    background: #f59e0b;
+    color: white;
+}
+
+.op:hover {
+    background: #d97706;
+}
+
+/* Equal button */
+.equal {
+    background: #22c55e;
+    color: white;
+    grid-column: span 2;
+}
+
+.equal:hover {
+    background: #16a34a;
+}
+
+/* Special buttons */
+.special {
+    background: #ef4444;
+    color: white;
+}
+
+.special:hover {
+    background: #dc2626;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="calculator">
+    <input type="text" class="display" placeholder="0">
+
+    <div class="buttons">
+        <button class="special">C</button>
+        <button class="op">%</button>
+        <button class="op">/</button>
+        <button class="op">*</button>
+
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button class="op">-</button>
+
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="op">+</button>
+
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="equal">=</button>
+
+        <button class="num" style="grid-column: span 2;">0</button>
+        <button class="num">.</button>
+    </div>
+</div>
+
+</body>
+</html>
